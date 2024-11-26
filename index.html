@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>apiww</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" data-page="home">Home</a></li>
+        <li><a href="#" data-page="about">About</a></li>
+        <li><a href="#" data-page="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Konten Halaman -->
+  <main>
+    <section id="home" class="page-content active">
+      <h1>Selamat Datang di Halaman Utama</h1>
+      <p>Ini adalah halaman utama website.</p>
+    </section>
+
+    <section id="about" class="page-content">
+      <div class="container">
+        <h1>my bub</h1>
+        <video controls class="video-player">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button id="playPauseBtn">Play/Pause</button>
+    </div>
+      <p>love lovee.</p>
+    </section>
+
+    <section id="contact" class="page-content">
+      <h1>Kontak Kami</h1>
+      <form id="contactForm">
+        <label for="name">nama:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">gmail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Pesan:
+        </label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; david kristianto Develover</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
